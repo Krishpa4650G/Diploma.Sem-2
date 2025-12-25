@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+        }
+
+        .header {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            font-size: xx-large;
+        }
+
+        .logo {
+            width: 30%;
+            height: full;
+            border: 1px solid orange;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        nav {
+            width: 70%;
+            align-items: center;
+            border: 1px solid navy;
+            display: flex;
+            padding: 20px;  
+        }
+
+        nav a 
+        {
+            margin: 10px;
+        }
+
+        .container {
+            width: 100%;
+            height: 80%;
+            /* align-items: center; */
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+        }
+
+        .menu {
+            display: absolute;
+            justify-items: center;
+            width: 30%;
+            height: 100%;
+            border: 1px solid orange;
+            
+        }
+
+    
+        .box {
+            display: flex;
+            border: 1px solid black;
+            margin: 35px;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 10%;
+            font-size: xx-large;
+        }
+
+        .main{
+            width: 70%;
+            height: full;
+            border: 1px solid green;
+            align-content: center;
+            justify-items: center   ;
+        }
+
+        .table1{
+            border: 1px solid purple;
+            height: 45%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .dotboxleft {
+            border: 1px dotted red;
+            height: 80%;
+            width: 40%;
+            display: flex;
+            margin: 5%;
+        }
+
+        .dotboxright {
+            border: 1px dotted red;
+            height: 80%;
+            width: 40%;
+            display: flex;
+        }
+
+        .table2 {
+            border: 1px solid purple;
+            height: 45%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dotboxleft2 {
+            border: 1px dotted red;
+            height: 80%;
+            width: 27%;
+            display: flex;
+            margin: 3%;
+        }
+
+        .dotboxmiddle2 {
+            border: 1px dotted red;
+            height: 80%;
+            width: 27%;
+            display: flex;
+            margin: 3%;
+        }
+
+        .dotboxright2 {
+            border: 1px dotted red;
+            height: 80%;
+            width: 27%;
+            display: flex;
+            margin: 3%;
+
+        }
+
+        .footer {
+            width: 100%;
+            height: 10%;
+            border: 3px solid blue;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            Logo Here
+        </div>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="menu">
+            <div class="box">Result</div>
+            <div class="box">Apply</div>
+            <div class="box">Placement</div>
+            <div class="box">Recrutment</div>
+            <div class="box">News</div>
+        </div>
+        <div class="main">
+            <div class="table1">
+                <div class="dotboxleft"></div>
+                <div class="dotboxright"></div>
+            </div>
+            <div class="table2">
+                <div class="dotboxleft2"></div>
+                <div class="dotboxmiddle2"></div>
+                <div class="dotboxright2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
